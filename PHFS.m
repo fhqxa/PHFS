@@ -20,7 +20,6 @@ Level_num  = max(tree(:,2));
 internalNodes = tree_InternalNodes(tree);
 indexRoot = tree_Root(tree);% The root of the tree
 noLeafNode =[internalNodes;indexRoot];
-
 %% Feature selection
 tic;
 flag=0;
